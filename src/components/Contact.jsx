@@ -34,7 +34,7 @@ const Contact = () => {
         from_name: form.name,
         to_name: 'Patryk',
         from_email: form.email,
-        to_email: import.meta.MAIL,
+        to_email: import.meta.env.MAIL,
         message: form.message,
       },
       import.meta.env.EMAILJS_PUBLIC_KEY
